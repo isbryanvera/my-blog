@@ -5,9 +5,84 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> Googlear como puede afectar esto-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Tech</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/main.scss">
+    
 </head>
 <body>
-    
+    <header>
+        <img src="src/images/logos/logo.png" width="45px" height="45px" alt="logo propio">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Suscribirse</a></li>
+                <button>Hablalo mi pez</button>
+                <button>Conoceme</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-posts">
+        <!--<article></article>
+            <article></article>
+            <article></article> -->
+        </section>
+
+        <section class="post-list-container">        
+            <nav class="tags-filter">
+
+                <ul class="nav-list">
+                    <li><a href="#">Todos</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Web components</a></li>
+                    <li><a href="#">Sistemas de diseño</a></li>
+                </ul>
+
+                <input type="text" placeholder="Buscar">
+            </nav>
+
+            <div class="post-list">
+
+                <article class="card">
+                    <img src="" alt="">
+                
+                    <section>
+                        <header>
+                            <div class="tags">
+                                <span><a href="#">Web components</a></span>
+                                <span><a href="#">css</a></span>
+                            </div>
+                            <h2>Titulo del post</h2>
+                        </header>
+                        <p>Descripcion del post</p>
+                        <footer>
+                            <div class="author">
+                                <img src="" alt="Avatar del autor">
+                                <span>Nombre del autor</span>
+                            </div>
+                            <span class="reading-time">7 min de lectura</span>
+                        </footer>
+                    </section>
+                </article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
+
+        <aside> Aprende a programar </aside>
+    </main>
+
+    <footer>Aqui va el footer</footer>
 </body>
 </html>
