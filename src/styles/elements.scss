@@ -10,7 +10,8 @@ body{
     background-color: var(--color-back-pearl-50);
 }
 
-header{
+//TODO move to objects
+.main-navbar{
     display: flex;
     padding: 19.5px 0;
     align-items: center;
@@ -22,4 +23,9 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+// TODO: move to reset file
+a{
+    text-decoration: none;
 }
