@@ -1,6 +1,11 @@
-@use 'components/card';
-@use 'components/tag';
+//info Atoms
 @use 'components/heading';
 @use 'components/paragraph';
-@use 'components/avatar';
 @use 'components/picture';
+@use 'components/avatar';
+
+// info Molecules
+@use 'components/tag';
+
+// info Organisms
+@use 'components/card';

@@ -10,7 +10,7 @@
     background-color: var(--color-back-pearl-0);
 }
 
-.card:nth-child(4n){
+.post-list article:nth-child(4n){
     background-color: var(--color-aquarius-100);
 
     @include tools.desktop {
@@ -29,20 +29,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 16px 0; 
-}
-
-.card h2{
-    font-weight: 700;
-    color: var(--color-back-pearl-900);
-    font-size: 23px;
-    line-height: 29px;
-}
-
-.card p{
-    font-weight: 400;
-    color: var(--color-back-pearl-700);
-    font-size: 16px;
-    line-height: 22px;
 }
 
 .card footer{
@@ -65,15 +51,8 @@
 }
 
 .author span{
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 19px;
     color: var(--color-back-pearl-900);
 }
-
 .reading-time{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
     color: var(--color-back-pearl-400);
 }
