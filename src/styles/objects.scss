@@ -1,8 +1,9 @@
+@use 'tools';
+
 // Cosas muy muy generales
 
 .nav-list{
     display: flex;
-    // justify-content: space-evenly;
     gap: 24px;
 }
 
@@ -12,24 +13,33 @@
     justify-content: space-between;
 }
 
+.post-list{
+    display: grid;
+    gap: 32px 0;
+    margin: 0 10px;
+
+    @include tools.desktop {
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: minmax(560px, auto) minmax(430px, auto);
+        gap: 80px 24px;
+    }
+}
+
 .post-list-container{
     display: flex;
     flex-direction: column;
     gap: 48px 0;
+    padding: 0 24px;
+
+    @include tools.desktop {
+        padding: 0;
+    }
 }
 
-.post-list{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 560px 430px;
-    gap: 80px 24px;
-}
-
-.post-list article:nth-child(4n){
-    grid-column: 1/4;
-    background-color: var(--color-aquarius-100);
-}
-
-.post-list article{
-    background-color: var(--color-back-pearl-0);
+.main-navbar{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    @include tools.container-width;
 }
