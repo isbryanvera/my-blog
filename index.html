@@ -19,10 +19,10 @@
         <img src="src/images/logos/logo.png" width="45px" height="45px" alt="logo propio">
         <nav>
             <ul class="nav-list">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Suscribirse</a></li>
-                <li><button>Hablalo mi pez</button></li>
-                <li><button>Conoceme</button></li>
+                <li><a href="" class="text-button text-button-md font-bold is-active">Inicio</a></li>
+                <li><a href="" class="text-button text-button-md font-bold">Suscribirse</a></li>
+                <li><button class="button button-primary">Hablalo mi pez</button></li>
+                <li><button class="button button-secondary">Conoceme</button></li>
             </ul>
         </nav>
     </header>
@@ -36,15 +36,17 @@
 
         <section class="post-list-container">        
             <nav class="tags-filter">
-                <ul class="nav-list">
-                    <li><a href="#">Todos</a></li>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">Web components</a></li>
-                    <li><a href="#">Sistemas de diseño</a></li>
-                </ul>
-                <input type="text" placeholder="Buscar">
+                <div class="filter-list-scroll-hider">
+                    <ul class="nav-list filter-list">
+                        <li class="is-active-filter"><a class="filter paragraph-sm font-bold" href="#">Todos</a></li>
+                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">HTML</a></li>
+                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">CSS</a></li>
+                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">JavaScript</a></li>
+                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Web components</a></li>
+                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Sistemas de diseño</a></li>
+                    </ul>
+                </div>
+                <input class="input" type="search" placeholder="Buscar">
             </nav>
 
             <div class="post-list">

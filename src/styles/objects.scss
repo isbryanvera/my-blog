@@ -4,19 +4,15 @@
 
 .nav-list{
     display: flex;
+    align-items: baseline;
+    width: 100%;
     gap: 24px;
-}
-
-// TODO: do move to component (?)
-.tags-filter{
-    display: flex;
-    justify-content: space-between;
 }
 
 .post-list{
     display: grid;
     gap: 32px 0;
-    margin: 0 10px;
+    // margin: 0 10px;
 
     @include tools.desktop {
         grid-template-columns: repeat(3,1fr);
@@ -29,7 +25,6 @@
     display: flex;
     flex-direction: column;
     gap: 48px 0;
-    padding: 0 24px;
 
     @include tools.desktop {
         padding: 0;

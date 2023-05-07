@@ -14,5 +14,12 @@ npm install --save-dev vite sass
 
 3. **Empezar a trabajar en algo**: No tiene que se rperfecto para empezar, lo importante e sempezar siempre se puede cambiar después. Mejor hecho que perfecto
 
+4. **Proponer objetivos en pequeñas tareas**: Darle prioridad a las tareas y empezar una a la vez, muy relacionado con el punto 2 pero en un sentido mucho mas empirico.
+
+5. **Refactorizar poco a poco**: Revisar que patrones ya existen en el proyecto y extrerlos para mejorar el codigo.
+
+6. **Comunicar inconsistencias** : A veces podemos encontrar inconsistencias en el codigo o diseño y es importante preguntar si es correcto.
+
+
 
 
