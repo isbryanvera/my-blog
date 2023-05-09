@@ -47,7 +47,7 @@
 }
 
 //! FIXME : card-extended, review how can we implement this with container queries
-.card-extended{
+.card:nth-child(4n){
     gap: 8px 48px;
     background-color: var(--color-aquarius-100);
     
@@ -61,19 +61,16 @@
             height: 100%;
         }
 
-        & > section{
-            gap: 12px 0;
-        }
+
     
         &:nth-child(8n) {
-            
             flex-direction: row-reverse;
         }
     }
 }
 
 .card-content > p{
-    height: 150px;
+    height: 112px;
     overflow-y: hidden;
     text-overflow: ellipsis;
 }
