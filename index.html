@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> Googlear como puede afectar esto-->
@@ -11,75 +12,81 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/main.scss">
-    
+
 </head>
+
 <body>
-
-    <header class="main-navbar">
-        <img src="src/images/logos/logo.png" width="45px" height="45px" alt="logo propio">
-        <nav>
-            <ul class="nav-list nav-list-header">
-                <li><a href="" class="text-button text-button-md font-bold is-active">Inicio</a></li>
-                <li><a href="" class="text-button text-button-md font-bold">Suscribirse</a></li>
-                <li><button class="button button-primary">Hablalo mi pez</button></li>
-                <li><button class="button button-secondary">Conoceme</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="featured-posts">
-        <!--<article></article>
-            <article></article>
-            <article></article> -->
-        </section>
-
-        <section class="post-list-container">        
-            <nav class="tags-filter">
-                <div class="filter-list-scroll-hider">
-                    <ul class="nav-list filter-list">
-                        <li class="is-active-filter"><a class="filter paragraph-sm font-bold" href="#">Todos</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">HTML</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">CSS</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">JavaScript</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Web components</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Sistemas de diseño</a></li>
-                    </ul>
-                </div>
-                <input class="input" type="search" placeholder="Buscar">
+    <div class="main-container">
+        <header class="main-navbar">
+            <img src="src/images/logos/logo.png" width="45px" height="45px" alt="logo propio">
+            <nav>
+                <ul class="nav-list nav-list-header">
+                    <li><a href="" class="text-button text-button-md font-bold is-active">Inicio</a></li>
+                    <li><a href="" class="text-button text-button-md font-bold">Suscribirse</a></li>
+                    <li><button class="button button-primary">Hablalo mi pez</button></li>
+                    <li><button class="button button-secondary">Conoceme</button></li>
+                </ul>
             </nav>
-
-            <div class="post-list">
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+        </header>
+        <main>
+            <section class="featured-posts">
+                <article></article>
+                <div class="button-cotainer">
+                    <button>Atras</button>
+                    <button>Adelante</button>
+                </div>
+            </section>
+            <section class="post-list-container">
+                <nav class="tags-filter">
+                    <div class="filter-list-scroll-hider">
+                        <ul class="nav-list filter-list">
+                            <li class="is-active-filter"><a class="filter paragraph-sm font-bold" href="#">Todos</a>
+                            </li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">HTML</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">CSS</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">JavaScript</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Web components</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Sistemas de diseño</a></li>
+                        </ul>
+                    </div>
+                    <input class="input" type="search" placeholder="Buscar">
+                </nav>
+                <div class="post-list">
+                    <article class="card">
+                        <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
                                         <span class="tag tag-primary"><a href="#">css</a></span>
                                     </div>
-                                    <h2 class="heading heading-sm font-bold">Estático, dinámico, single-page, multiple-page y JAMstack</h2>
+                                    <h2 class="heading heading-sm font-bold">Estático, dinámico, single-page,
+                                        multiple-page y JAMstack</h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat alias voluptatibus quibusdam quod ducimus laudantium, dolorum minus, porro dolores commodi exercitationem consequatur molestiae rerum dolore. Velit praesentium quisquam illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quibusdam repellendus. Iusto, necessitatibus modi sit voluptatem consectetur recusandae at nesciunt reiciendis. Labore, unde animi? Animi ratione aperiam quam debitis cumque?
+                                <p class="paragraph paragraph-sm font-regular">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Reprehenderit placeat alias voluptatibus quibusdam quod ducimus
+                                    laudantium, dolorum minus, porro dolores commodi exercitationem consequatur
+                                    molestiae rerum dolore. Velit praesentium quisquam illo? Lorem ipsum dolor sit, amet
+                                    consectetur adipisicing elit. Quisquam, quibusdam repellendus. Iusto, necessitatibus
+                                    modi sit voluptatem consectetur recusandae at nesciunt reiciendis. Labore, unde
+                                    animi? Animi ratione aperiam quam debitis cumque?
                                 </p>
                             </div>
-                    </section>
-
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <img src="/src/images/img-post/art.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
@@ -88,25 +95,25 @@
                                     <h2 class="heading heading-sm font-bold">Comandos alias para la Terminal
                                     </h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término JAMStack. ¿Qué significa todo esto?...
+                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como
+                                    páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término
+                                    JAMStack. ¿Qué significa todo esto?...
                                 </p>
                             </div>
-                    </section>
-
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <img src="/src/images/img-post/furniture.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
@@ -115,49 +122,52 @@
                                     <h2 class="heading heading-sm font-bold">¿Cómo funcionan los HTML Templates?
                                     </h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término JAMStack. ¿Qué significa todo esto?...
+                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como
+                                    páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término
+                                    JAMStack. ¿Qué significa todo esto?...
                                 </p>
                             </div>
-                    </section>
-
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-
-                <article class="card card-extended">
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag tag-secondary"><a href="#">Web components</a></span>
-                                    <span class="tag tag-secondary"><a href="#">css</a></span>
-                                </div>
-                                <h2 class="heading heading-sm font-bold">Design tokens al rescate</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un ambiente caótico rápidamente en proyectos de nivel empresarial..</p>
-                        </div>
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
+                    <article class="card card-extended">
+                        <img src="/src/images/img-post/ocean.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag tag-secondary"><a href="#">Web components</a></span>
+                                        <span class="tag tag-secondary"><a href="#">css</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Design tokens al rescate</h2>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a
+                                    escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias
+                                    porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su
+                                    naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un
+                                    ambiente caótico rápidamente en proyectos de nivel empresarial..</p>
+                            </div>
                             <footer>
                                 <div class="author">
                                     <img src="https://i.pravatar.cc/300
-                                    " alt="Avatar del autor">
+                                            " alt="Avatar del autor">
                                     <span class="paragraph-xs font-bold">Nombre del autor</span>
                                 </div>
                                 <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
                             </footer>
-                    </section>
-                </article>
-
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+                        </section>
+                    </article>
+                    <article class="card">
+                        <img src="/src/images/img-post/web-design.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
@@ -166,25 +176,25 @@
                                     <h2 class="heading heading-sm font-bold">¿Cómo funcionan los HTML Templates?
                                     </h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término JAMStack. ¿Qué significa todo esto?...
+                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como
+                                    páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término
+                                    JAMStack. ¿Qué significa todo esto?...
                                 </p>
                             </div>
-                    </section>
-
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <img src="/src/images/img-post/jungle.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
@@ -193,25 +203,25 @@
                                     <h2 class="heading heading-sm font-bold">¿Cómo funcionan los HTML Templates?
                                     </h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término JAMStack. ¿Qué significa todo esto?...
+                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como
+                                    páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término
+                                    JAMStack. ¿Qué significa todo esto?...
                                 </p>
                             </div>
-                    </section>
-
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-
-                <article class="card">                                    
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    <section>
-                            <div class="card-content"> 
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <img src="/src/images/img-post/food.jpg" alt="Imagen del post">
+                        <section>
+                            <div class="card-content">
                                 <header>
                                     <div class="tags">
                                         <span class="tag tag-primary"><a href="#">Web components</a></span>
@@ -220,51 +230,57 @@
                                     <h2 class="heading heading-sm font-bold">¿Cómo funcionan los HTML Templates?
                                     </h2>
                                 </header>
-                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término JAMStack. ¿Qué significa todo esto?...
+                                <p class="paragraph paragraph-sm font-regular">Hoy en día escuchamos términos como
+                                    páginas estáticas, dinámicas, SPA, Muti-páginas y, recientemente, el término
+                                    JAMStack. ¿Qué significa todo esto?...
                                 </p>
                             </div>
-                    </section>
+                        </section>
+                        <footer>
+                            <div class="author">
+                                <img src="https://i.pravatar.cc/300
+                                    " alt="Avatar del autor">
+                                <span class="paragraph-xs font-bold">Nombre del autor</span>
+                            </div>
+                            <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
+                        </footer>
+                    </article>
 
-                    <footer>
-                        <div class="author">
-                            <img src="https://i.pravatar.cc/300
-                            " alt="Avatar del autor">
-                            <span class="paragraph-xs font-bold">Nombre del autor</span>
-                        </div>
-                        <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
-                    </footer>
-                </article>
-                
-                <article class="card card-extended">
-                    <img src="/src/images/img-post/imagenprueba1.jpg" alt="Imagen del post">
-                    
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag tag-secondary"><a href="#">Web components</a></span>
-                                    <span class="tag tag-secondary"><a href="#">css</a></span>
-                                </div>
-                                <h2 class="heading heading-sm font-bold">Design tokens al rescate</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un ambiente caótico rápidamente en proyectos de nivel empresarial..</p>
-                        </div>
+                    <article class="card card-extended">
+                        <img src="/src/images/img-post/landscape.jpg" alt="Imagen del post">
+
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag tag-secondary"><a href="#">Web components</a></span>
+                                        <span class="tag tag-secondary"><a href="#">css</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Design tokens al rescate</h2>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a
+                                    escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias
+                                    porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su
+                                    naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un
+                                    ambiente caótico rápidamente en proyectos de nivel empresarial..</p>
+                            </div>
                             <footer>
                                 <div class="author">
                                     <img src="https://i.pravatar.cc/300
-                                    " alt="Avatar del autor">
+                                            " alt="Avatar del autor">
                                     <span class="paragraph-xs font-bold">Nombre del autor</span>
                                 </div>
                                 <span class="reading-time paragraph-xs font-regular">7 min de lectura</span>
                             </footer>
-                    </section>
-                </article>
-            </div>
-        </section>
+                        </section>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
 
-        <aside> Aprende a programar </aside>
-    </main>
+    <footer class="main-footer"></footer>
 
-    <footer>Aqui va el footer</footer>
 </body>
+
 </html>
